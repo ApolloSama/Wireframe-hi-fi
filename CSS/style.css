@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 65vw;
+    margin: 0 auto;
+    /* background-color: grey; */
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTEÚDO DO HEADER */
+
+header {
+    top: 0;
+    width: 100vw;
+    height: 85px;
+    position: fixed;
+    z-index: 0;
+    background-color: #1D1D1D;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo_header {
+    display: flex;
+    /* background-color: green; */
+    width: 30%;
+}
+
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    /* background-color: red; */
+}
+
+.nav_header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+/* CONTEÚDO DO HEADER */
+
+/* MAIN */
+
+main {
+    margin-top: 85px;
+}
+
+.container_banner {
+    height: 728px;
+    background-image: linear-gradient(to right, #53562D , #202D0F , black);
+}
+
+.fundo_banner {
+    display: flex;
+}
+
+.conteudo_banner {
+    margin-top: 170px;
+    margin-left: 185px;
+}
+
+.conteudo_banner h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 100px;
+    height: 135px;
+}
+
+.conteudo_banner span {
+    display: flex ;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.btn_inscreva-se {
+    align-items: center;
+    margin-top: 55px;
+    width: 300px;
+    height: 76px;
+    background-image: linear-gradient(to right, #53562D , #202D0F);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 160px;
+}
+
+.container_jogos {
+    margin: 0px;
+    height: 137px;
+    background-color: #1D1D1D;
+
+}
+
+.box_jogos {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.img_jogos {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+}
+
+.container_ligas {
+    margin: 0px;
+    height: 747px;
+    background-image: url(../assets_/maxresdefault\ 1.png);
+}
+
+.fundo_ligas {
+    width: auto;
+}
+
+.ligas {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 747px;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 99%);
+    background-color: black;
+}
+
+.texto_ligas h2 {
+    font-weight: 700px;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.texto_ligas {
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    margin: 180px 0 0 360px;
+    width: 450px;
+    height: 380px;
+    color: white;
+    /* background-color: green; */
+}
+
+.paragrafo_lorem {
+    padding-top: 40px;
+}
+
+    .price {
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .barra_times {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        height: 147px;
+        background-color: black;
+    }
+
+    .fundo_times {
+        display: flex;
+        align-items: center;
+        /* width: 1200px; */
+    }
+
+    .img_times {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+    }
+
+    .ao_vivo {
+        display: flex;
+    }
+
+    .ao_vivo h2 {
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .vertical {
+        border-left: 1px solid white;
+        height: 48px;
+    }
+
+    .em_breve {
+        display: flex;
+    }
+
+    .em_breve h2 {
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .secao_noticias {
+        height: 1080px;
+        background-color: #1D1D1D;
+    }
+
+    .titulos_noticias {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .titulos {
+        font-size: 35px;
+        margin: 25px 0 35px 0;
+    }
+
+    .noticias_horarios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .wrap_articles {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 900px;
+    }
+
+    .box_noticias {
+        width: 239px;
+        height: 375px;
+        background-image: linear-gradient(grey , black);
+        color: white;
+        margin-bottom: 114px;
+    }
+
+    .box_noticias h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        width: 167px;
+        margin: 15px 15px 15px;
+    }
+
+    .box_noticias p {
+        font-size: 18px;
+        width: 200px;
+        height: 115px;
+        margin-left: 15px;
+    }
+
+    .box_horarios {
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: 870px;
+        background-image: linear-gradient(#373737 , black);
+    }
+
+    .horarios {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 221px;
+    }
+
+    .footer {
+        height: 312px;
+        background-color: black; 
+    }
+
+    .conteudo_footer {
+        display: flex;
+    }
+
+    .footer_links {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        color: white;
+        height: 240px;
+    }
+
+    .titulo_footer {
+        margin: 40px 0 30px 0;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .footer_paginas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: white;
+    }
+
+    .footer_span {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .titulos_footer {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 280px;
+    }
+
+    .logo_footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 312px;
+    }
+
+    .cadastro_footer {
+        width: 30%;
+    }
+
+    .cadastro_span {
+        display:flex;
+        width: 100%;
+        margin: 65px 0 25px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16.5px;
+        color: white;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 42px;
+        border-radius: 3px;
+        padding: 0 15px;
+        background-color: white;
+    }
+
+    .cadastro h2 {
+        color: black;
+    }
+
+    .box_redes_sociais {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 60px 0 0 30px;
+    }
