@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+.html {
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -83,7 +89,7 @@ main {
 .conteudo_banner h1 {
     font-family: 'Titillium Web', sans-serif;
     color: white;
-    font-weight: normal;
+    font-weight: 700;
     font-size: 100px;
     height: 135px;
 }
@@ -103,7 +109,10 @@ main {
     height: 76px;
     background-image: linear-gradient(to right, #53562D , #202D0F);
     border-radius: 10px;
+    border-color:#53562D;
     font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: white;
     margin-left: 160px;
 }
 
@@ -347,17 +356,35 @@ main {
 
     .cadastro {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
+        width: 374px;
         height: 42px;
-        border-radius: 3px;
-        padding: 0 15px;
+    }
+
+    .cadastro_mail {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        height: 42px;
+        padding-left: 5px;
         background-color: white;
     }
 
-    .cadastro h2 {
-        color: black;
+    .cadastro_mail h2 {
+        width: 100%;
+        color: #B8B3B3;
+    }
+
+    .cadastro_cadastrar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 42px;
+        border-color: #001F70;
+        background-color: #001F70;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
     }
 
     .box_redes_sociais {
@@ -366,3 +393,126 @@ main {
         justify-content: space-between;
         margin: 60px 0 0 30px;
     }
+
+    .main_cadastro {
+        background: url(../assets_/cadastro2.png);
+        background-color: black;
+        height: 870px;
+    }
+    
+    .container_cadastro {
+        margin: 0 auto;
+    }
+
+    .quadro_cadastro {
+        width: 590px;
+        height: 100%;
+        /* background-color: grey; */
+    }
+
+    .box_cadastro {
+        height: 630px;
+        background-image: linear-gradient(to right, rgba(0,160,251,0.2), rgba(166,110,69,0.5));
+    }
+
+    .titulo_cadastro {
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 590px;
+        height: 76px;
+        background-color: black;
+    }
+
+    .titulo_cadastro h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: #B1B1B1;
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    .container_conteudo_cadastro {
+        margin: 0 auto;
+    }
+
+    .conteudo_cadastro {
+        width: 500px;
+        height: 540px;
+        margin-top: 15px;
+    }
+
+    .conteudo_cadastro h3 {
+        /* color: gray; */
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+
+    .box_inputs h3 {
+        color: grey;
+    }
+
+    .input_cadastro {
+        width: 100%;
+        border-radius: 6px;
+        border: none;
+        height: 40px;
+        background-color: #B1B1B1;
+    }
+
+    .nick_name {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 119px;
+    }
+
+    .nick_nasc {
+        display: flex;
+        justify-content: space-between;        
+    }
+
+    .nick_nasc input {
+        width: 45%;
+    }
+
+    .box_botao_cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+    }
+
+    .botao_cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 224px;
+        height: 60px;
+        border-radius: 4px;
+        border: none;
+        background-color: #B1B1B1;
+    }
+
+    .botao_cadastro h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 27px;
+    }
+
+    .box_times {
+        height: 400px;
+        background-image: linear-gradient(to right, rgba(0,160,251,0.2), rgba(166,110,69,0.5));
+    }
+
+    .emblema {
+        display: flex;
+        align-items: end;
+        height: 70px;
+        color: grey;
+    }
+
+    .botao_imagem {
+        background-color: #b1b1b1;
+        border: none;
+    }
+

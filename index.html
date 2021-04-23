@@ -12,18 +12,7 @@
 
 <body>
     <header>
-        <div class="container container_header">
-            <div class="logo_header">
-                <img src="assets_/logo.svg" alt="Logo Site">
-            </div>
-            <nav class="nav_header">
-                <a href="#início">Início</a>
-                <a href="#Horários">Horários</a>
-                <a href="#Campeonato">Campeonato</a>
-                <a href="#Resultados">Resultados</a>
-                <a href="#Notícias">Notícias</a>
-            </nav>
-        </div>
+        <iframe src="./header.html" frameborder="0" height="100%" width="100%" scrolling="no" margin="0"></iframe>
     </header>
 
     <main>
@@ -33,7 +22,9 @@
                 <div class="conteudo_banner">
                     <h1>LIGA E-Players</h1>
                     <span>O maior portal de campeonatos online</span>
-                    <span class=btn_inscreva-se>INSCREVA-SE</span>
+                    <form>
+                        <button class="btn_inscreva-se" formaction="#">INSCREVA-SE</button>
+                      </form>
                 </div>
             </div>
         </section>
@@ -95,7 +86,7 @@
             </div>
         </section>
 
-        <section class="secao_noticias">
+        <section class="secao_noticias" id="noticias">
             <div class="container container_noticias">
                 <div class="titulos_noticias">
                     <h2 class="titulos">Notícias</h2>
@@ -191,13 +182,14 @@
                 <div class="logo_footer">
                     <img src="assets_/logo.svg">
                 </div>
-
+        
                 <div class="cadastro_footer">
                     <span class="cadastro_span">Faça parte do nosso clan, assine nossa newsletter!</span>
                     <div class="cadastro">
-                        </span>
-                        <h2>E-mail</h2>
-                        <h2>Cadastrar</h2>
+                        <div class="cadastro_mail">
+                            <h2>E-mail</h2>
+                        </div>
+                        <button class="cadastro_cadastrar" onclick="location.href='telacadastro.html'; "type="button">Cadastrar</button>
                     </div>
                     <div class="box_redes_sociais">
                         <h2>Siga-nos em:</h2>
@@ -206,7 +198,6 @@
                         <img src="assets_/youtube 1.png">
                     </div>
                 </div>
-
             </div>
         </div>
     </footer>
